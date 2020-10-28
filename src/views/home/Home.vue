@@ -71,7 +71,7 @@ export default {
     }
   },
   destroyed() {
-    console.log('home destroyed');
+    //console.log('home destroyed');
   },
   activated() {
     this.$refs.scroll.scrollTo(0, this.saveY, 0)
